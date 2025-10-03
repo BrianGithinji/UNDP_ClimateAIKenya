@@ -11,7 +11,7 @@ export function Header({ onNavigate }: HeaderProps) {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-3">
             <div className="flex items-center gap-2">
-              <img src="climate.jpg" alt="Climate Logo" className="h-12 w-12 object-contain" />
+              <img src="/climate.jpg" alt="Climate Logo" className="h-12 w-12 object-contain" />
               <div>
                 <h1 className="text-xl text-gray-900">ClimateAI Kenya</h1>
                 <p className="text-xs text-gray-500">Hyper-local climate insights</p>
